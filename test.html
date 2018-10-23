@@ -11,11 +11,17 @@
 </head>
 <body>
 	<div id="testSVG"></div>
+
+	<div>
+		<span class="text-class"></span>
+	</div>
 <script>
 	var svg = d3.select("#testSVG")
 				.append('svg')
 				.attr('height','300')
 				.attr('width','300');
+
+	d3.select('.text-class').text('Praveen');
 </script>
 </body>
 </html>
